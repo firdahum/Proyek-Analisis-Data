@@ -1,16 +1,11 @@
 import streamlit as st
 import pandas as pd
-import matplotlib as plt
+import matplotlib.pyplot as plt
 import seaborn as sns
-import os
-from pathlib import Path
 
-# Load dataset dengan os
+# Load dataset
 def load_data():
-    # Pastikan path file relatif terhadap script ini
-    file_path = Path(_file_).parent / "dashboard" / "main_data.csv"
-    
-    # Baca dataset
+    file_path = "dashboard/main_data.csv"
     df = pd.read_csv(file_path)
     df["dteday"] = pd.to_datetime(df["dteday"])
     return df
@@ -27,8 +22,8 @@ df_filtered = df[(df["mnth"] == month) & (df["weathersit"] == weather)]
 # Dashboard title
 st.title("Dashboard Bike Sharing🚴🏻🚴🏻🚴🏻")
 
-st.write("Selamat datang di Dashboard Bike Sharing!")
-st.write("Dashboard ini menyajikan analisis mendalam mengenai pola penyewaan sepeda berdasarkan berbagai faktor seperti hari libur, suhu, dan waktu dalam sehari.")
+st.write("""Selamat datang di Dashboard Bike Sharing! """)
+st.write("""Dashboard ini menyajikan analisis mendalam mengenai pola penyewaan sepeda berdasarkan berbagai faktor seperti hari libur, suhu, dan waktu dalam sehari.""")
 
 st.subheader("📊 Berikut Analisis Bike Sharing")
 
