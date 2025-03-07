@@ -49,7 +49,7 @@ Jika tidak menggunakan Anaconda, Anda dapat mengelola lingkungan menggunakan pip
 ## Menjalankan Aplikasi Streamlit
 Setelah lingkungan siap dan semua dependensi telah diinstal, jalankan aplikasi dengan perintah
 
-```streamlit run dashboard.py```
+```streamlit run dashboard.py``` atau ```python -m streamlit run dashboard/dashboard.py```
 
 Perintah ini akan membuka aplikasi di browser web anda dan berinteraksi dengan dashboard yang telah dibuat.
 
