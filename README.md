@@ -1,5 +1,14 @@
 # Proyek-Akhir-Analisis-Data
-Sebelum menjalankan aplikasi Streamlit, Anda perlu mengatur lingkungan pengembangan terlebih dahulu. Berikut adalah dua metode yang bisa digunakan: menggunakan Anaconda atau terminal biasa.
+
+## Menjalankan Analisis Data di Google Colab
+1. Pastikan Anda telah mengunduh proyek ini ke perangkat Anda.
+2. Klik File > New Notebook untuk membuat notebook baru.
+3. Pilih file dengan ekstensi .ipynb yang telah diunduh.
+4. Klik Connect untuk menyambungkan ke hosted runtime.
+5. Eksekusi setiap sel kode untuk memproses analisis data.
+   
+## Menjalankan Dashboard
+Mengunduh proyek ini. Sebelum menjalankan aplikasi Streamlit, Anda perlu mengatur lingkungan pengembangan terlebih dahulu. Berikut adalah dua metode yang bisa digunakan: menggunakan Anaconda atau terminal biasa.
 
 ## Setup Environment - Anaconda
 Jika menggunakan Anaconda, ikuti langkah-langkah berikut:
@@ -41,6 +50,9 @@ Jika tidak menggunakan Anaconda, Anda dapat mengelola lingkungan menggunakan pip
 Setelah lingkungan siap dan semua dependensi telah diinstal, jalankan aplikasi dengan perintah
 
 ```streamlit run dashboard.py```
+
 Perintah ini akan membuka aplikasi di browser web anda dan berinteraksi dengan dashboard yang telah dibuat.
+
+Jika ada pertanyaan terkait proyek ini, hubungi: firdahumaira13@gmail.com
 
 © 2025 Firda Humaira
